@@ -5,7 +5,7 @@ public class DataType {
 	public static void main(String[] args) {
 		
 		/*
-		 * 데이터 타입(Data Type)이란,
+		 * 자료형(Data Type)이란,
 		 * 메모리에 데이터가 저장될 때 데이터에 따라서 할당 받는 메모리 크기가
 		 * 다르게 되는데, 예를 들어 정수는 1~8byte, 실수는 4~8byte의 크기가 할당됨,
 		 * 이런 것을 데이터타입 이라고 함
@@ -24,7 +24,7 @@ public class DataType {
 		System.out.println("shortVar: " + shortVar);
 		// shortVar = 32768;
 		
-		// 1-3. int		4byte		-2,147,483,648 ~ 2,147,483,647  
+		// 1-3. int		4byte		-2,147,483,648 ~ 2,147,483,647
 		int intVar = 2147483647;
 		System.out.println("intVar: " + intVar);
 		
@@ -104,6 +104,7 @@ public class DataType {
 		str1 = "";
 		str1 = " ";
 		str1 = "A";
+		// str1 = 'A';
 		
 		System.out.println("str1; " + str1);
 		
